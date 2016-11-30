@@ -1,20 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsWorkspacesCleaner", "TfsWorkspacesCleaner\TfsWorkspacesCleaner.csproj", "{BFC54EBB-9265-4B76-A859-413280E6F763}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA9C29D1-1E8D-4F0E-95E6-32E7363E779B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{BE28F36F-00B3-4803-A997-8A1267DE809F}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\TfsWorkspacesCleaner-Begin.png = Documentation\TfsWorkspacesCleaner-Begin.png
+		Documentation\TfsWorkspacesCleaner-End.png = Documentation\TfsWorkspacesCleaner-End.png
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs06
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = TfsWorkspacesCleaner\\TfsWorkspacesCleaner.csproj
-		SccProjectName1 = TfsWorkspacesCleaner
-		SccLocalPath1 = TfsWorkspacesCleaner
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
