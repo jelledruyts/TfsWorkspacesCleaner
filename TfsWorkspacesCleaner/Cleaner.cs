@@ -58,7 +58,7 @@ namespace TfsWorkspacesCleaner
             {
                 try
                 {
-                    if (Console.KeyAvailable)
+                    if (!Console.IsInputRedirected && Console.KeyAvailable)
                     {
                         var keyPressed = Console.ReadKey(true);
                         ConsoleLogger.Write(ConsoleColor.Yellow, "Paused. Enter 'q' to quit processing or any other key to resume: ");
